@@ -1,0 +1,36 @@
+.button {
+  padding: 1rem;
+  border-radius: .5rem;
+  border: none;
+  transition: 100ms;
+}
+
+.button.primary {
+  background: #ffd1d1;
+  border: 1px solid #ff7979;
+}
+
+.button.primary:hover {
+  background: #ff7979;
+  color: white;
+}
+
+.button.secondary {
+  background: #d9d9ff;
+  border: 1px solid #9595ff;
+}
+
+.button.secondary:hover {
+  background: #9595ff;
+  color: white;
+}
+
+.button.tertiary {
+  background: #daffda;
+  border: 1px solid #72dc72;
+}
+
+.button.tertiary:hover {
+  background: #72dc72;
+  color: white;
+}
